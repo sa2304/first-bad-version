@@ -14,6 +14,9 @@ void TestFirstBadVersion() {
   assert(1 == s.firstBadVersion(5));
   assert(1 == s.firstBadVersion(3));
   assert(1 == s.firstBadVersion(1));
+
+  Solution::FirstBadVersion = 1702766719;
+  assert(1702766719 == s.firstBadVersion(2126753390));
 }
 
 int main() {
